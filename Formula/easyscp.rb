@@ -1,28 +1,28 @@
 class Easyscp < Formula
   desc "Send, receive and copy files over SSH by picking them, not typing paths"
   homepage "https://github.com/pentoshi007/easySCP"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pentoshi007/easySCP/releases/download/v0.1.1/easyscp-darwin-arm64.gz"
-      sha256 "243ca3e1bb67a6e116d092fb59425604a2a2e15490bb7b12e8cc505b5108cd62"
+      url "https://github.com/pentoshi007/easySCP/releases/download/v0.2.0/easyscp-darwin-arm64.gz"
+      sha256 "0d093cfe3f4d09be936f7129e57df12bad547ad7cf416015b816b1081fc4df89"
     end
     on_intel do
-      url "https://github.com/pentoshi007/easySCP/releases/download/v0.1.1/easyscp-darwin-x64.gz"
-      sha256 "782f68ab67b6a020c30551c69f45e628dd09a4723260a17e177c2e7fb7ad60e6"
+      url "https://github.com/pentoshi007/easySCP/releases/download/v0.2.0/easyscp-darwin-x64.gz"
+      sha256 "24a83a87d4bb444d554ec14eae59c31e47cb86a62e8a73ec7419f916d1b60656"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pentoshi007/easySCP/releases/download/v0.1.1/easyscp-linux-arm64.gz"
-      sha256 "f117e10d82be59d3eeb289b9f0aedaac527138e3b3f114474c2f3e21244838da"
+      url "https://github.com/pentoshi007/easySCP/releases/download/v0.2.0/easyscp-linux-arm64.gz"
+      sha256 "513c8c1b4676a2a23bf1c23a6326f4d962136b7809b0e2d0a97034d80dbdf244"
     end
     on_intel do
-      url "https://github.com/pentoshi007/easySCP/releases/download/v0.1.1/easyscp-linux-x64.gz"
-      sha256 "146ca75f79b8ff889af9a0d53637e4bb287abc7f5d40a779b138445890cf8092"
+      url "https://github.com/pentoshi007/easySCP/releases/download/v0.2.0/easyscp-linux-x64.gz"
+      sha256 "1d05e6a76bb575674b209b0a9467adf1fa37faab5695b03baadc929f509863f9"
     end
   end
 
